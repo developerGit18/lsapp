@@ -1,10 +1,13 @@
 :punch: :punch: :punch:
 ## Requirements
-Install XAMPP
-* Apache
-* Mysql
-* Php version 7.x 
-* [Optional] PhpMyAdmin
+Install the following software.
+1. XAMPP
+    * Apache - server
+    * Mysql - database
+    * Php version 7.3 and above - Programming Language
+    * [Optional] PhpMyAdmin - GUI Client for mysql. Recommended use [Heidi](https://www.heidisql.com/).
+2. Composer 
+
 
 ## Local Environment Config
 This configuration allow us to access our application by typing lsapp.me in the browser.
@@ -24,4 +27,15 @@ This configuration allow us to access our application by typing lsapp.me in the 
 ```
     127.0.0.1       localhost
     127.0.0.1       lsapp.me
+```
+## Setting up the clone project
+Run 
+``` composer install 
+```
+in your local machine to install the laravel framework.
+
+## Others
+After completing all the setup you can run the project with Apache server or by executing this command in cmd.
+```
+php artisan server
 ```
