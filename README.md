@@ -30,7 +30,8 @@ This configuration allow us to access our application by typing lsapp.me in the 
 ```
 ## Setting up the clone project
 Run 
-``` composer install 
+```
+composer install
 ```
 in your local machine to install the laravel framework.
 
