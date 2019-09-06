@@ -1,12 +1,12 @@
 :punch: :punch: :punch:
 ## Requirements
 Install the following software.
-1. XAMPP
+1. [XAMPP](https://www.apachefriends.org/index.html) - Use the latest version
     * Apache - server
     * Mysql - database
     * Php version 7.3 and above - Programming Language
     * [Optional] PhpMyAdmin - GUI Client for mysql. Recommended use [Heidi](https://www.heidisql.com/).
-2. Composer 
+2. [Composer](https://getcomposer.org/)
 
 
 ## Local Environment Config
