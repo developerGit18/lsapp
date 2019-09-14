@@ -11,10 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['middleware' => 'validateBackHistory'],function(){
+  Route::get('/', 'Auth\LoginController@index');
+  Auth::routes();
+  Route::get('/home', 'HomeController@index')->name('home');
 });
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
